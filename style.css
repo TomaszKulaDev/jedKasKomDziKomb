@@ -1,4 +1,30 @@
 body {
 background-color: rgb(93, 89, 98);
+font-family: 'Montserrat', sans-serif;
+font-size: x-large;
+color: aliceblue;
 }
 
+div > p {
+color: tomato;
+}
+
+.child > p {
+font-weight: bolder;
+text-decoration: line-through;
+}
+
+span {
+color: greenyellow;
+text-transform: uppercase;
+font-weight: 700;
+}
+
+#test~ div {
+background: rgb(156, 18, 18);
+}
+main + p {
+
+    text-transform: uppercase;
+
+}
